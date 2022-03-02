@@ -1,0 +1,57 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: bisque;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.input-box {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 50%;
+}
+
+.output-box {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 50%;
+}
+
+#cep {
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	font-family: "Fira Code";
+}
+
+.btn {
+	padding: 10px;
+	background-color: tomato;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-family: "Fira Code";
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+}

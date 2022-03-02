@@ -1,0 +1,31 @@
+{
+  "name": "buscador-de-cep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon code/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoochampDeveloper/BUSCADOR-DE-CEP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoochampDeveloper/BUSCADOR-DE-CEP/issues"
+  },
+  "homepage": "https://github.com/PoochampDeveloper/BUSCADOR-DE-CEP#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13"
+  }
+}
